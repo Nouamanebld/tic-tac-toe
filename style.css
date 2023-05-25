@@ -1,16 +1,27 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .container {
+    width: 500px;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     border: 1px solid black;
-    width: 800px;
-    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.container > div {
-    border: 1px solid green;
+#child {
+    border: 1px solid black;
+    font-size: 800%;
+    text-align: center;
 }
 
-.item0 {
-    font-size: 100%;
+.info {
+    margin-right: auto;
+    margin-left: auto;
 }
